@@ -299,7 +299,8 @@ pub fn result_combinators() {
 pub fn best_practices() {
     println!("\n=== ベストプラクティス ===");
 
-    println!(r#"
+    println!(
+        r#"
 panic!を使うべき場面:
 - プログラムのバグを示す不整合な状態
 - テストコード
@@ -318,7 +319,8 @@ Result<T, E>を使うべき場面:
 3. ?演算子でエラー伝播を簡潔に
 4. カスタムエラー型で詳細な情報を提供
 5. anyhowやthiserrorクレートの活用を検討
-"#);
+"#
+    );
 }
 
 /// Validationパターン

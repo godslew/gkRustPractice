@@ -1,6 +1,6 @@
 # Rust学習サンプル集
 
-公式ドキュメント「[The Rust Programming Language](https://doc.rust-lang.org/book/)」に対応したRust学習用サンプルコード集です。
+公式ドキュメント「[The Rust Programming Language](https://doc.rust-jp.rs/book-ja/)」に対応したRust学習用サンプルコード集です。
 
 ## 実行方法
 
